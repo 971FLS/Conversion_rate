@@ -20,7 +20,8 @@ Goals 🎯
     Part 4 : Result given by the jury.
 
 # Results
-The jury received my file of predictions (). At the end of the challenge, my score was : 
+The jury received my file of predictions : conversion_data_test_predictions_FREDERIC-RL2.csv.
+At the end of the challenge, my score was : 
 
     * F1 score : 0,754615
     * Precision : 0,845499
