@@ -1,5 +1,6 @@
 """# Régression logistique multivariée
 On peut appliquer ce modèle car il s'agit de prédire une variable catégorielle (converted).
+Cette version correspond aux paramètres et preprocessings ayant donné les meilleurs résultats
 """
 
 import pandas as pd
@@ -53,7 +54,7 @@ data = data[~((data[cols] < (Q1 - 1.5 * intervalle)) |(data[cols] > (Q3 + 1.5 * 
 data['total_pages_visited_sq'] = (data['total_pages_visited']**2)
 #data['age_sq'] = (data['age']**2) # M'a fait retomber à 0.75550195960205
 #data = data.drop('total_pages_visited', axis=1)
-display(data.head())
+print(data.head())
 
 
 # Separate target variable Y from features X
@@ -243,7 +244,7 @@ X_without_labels = data_without_labels.loc[:, features_list]
 
 # On va doper total_pages_visited
 X_without_labels.loc[:, 'total_pages_visited_sq'] = (X_without_labels.loc[:, 'total_pages_visited']**2)
-display(X_without_labels.head())
+print(X_without_labels.head())
 
 # Supprimer les outliers de 'age'
 cols = ['age'] # one or more
