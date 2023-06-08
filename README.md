@@ -22,12 +22,12 @@ Goals 🎯
 # Results
 The jury received my file of predictions (). At the end of the challenge, my score was : 
 
-* F1 score : 0,754615
-* Precision : 0,845499
-* Recall : 0,681373
+    * F1 score : 0,754615
+    * Precision : 0,845499
+    * Recall : 0,681373
 
 Not bad compared to the best model of the challenge 
 
-* F1 score : 0,758368
-* Precision : 0,812780
-* Recall : 0,710784
+    * F1 score : 0,758368
+    * Precision : 0,812780
+    * Recall : 0,710784
